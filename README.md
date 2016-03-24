@@ -35,6 +35,7 @@ Make sure the file has execute permissions
     
 2.) Fix bug regarding the month of november
   - For some reason the number of mentions drops dramatically for the entire month of november for all candidates
+    - EDIT: It is because there are only 2 index files posted for november instead of the usual 6 
 
 3.) Adjust algorithm to support other years
 
