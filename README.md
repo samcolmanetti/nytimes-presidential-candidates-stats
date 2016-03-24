@@ -1,4 +1,4 @@
-# NY Times President Candidate Mentions
+# NY Times Presidential Candidate Mentions
 This application searches through every article posted in 2015 and records the number of times a presidential candidate's name was mentioned. The results are recorded in a .csv file where you can see a candidate's popularity by month. 
 
 I made this as a school project to show one of the many applications of regular expressions. 
