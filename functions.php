@@ -60,7 +60,7 @@ function getArticles() {
               $url = $match[2]; 
               $file_name = pathinfo($url)['filename'] . ".html";
               
-              /*
+              
               if (!file_exists("./articles/$file_name")) {
                   //copy ($url, "./articles/$file_name");
                   $data = downloadNYTArticle($url); 
@@ -69,7 +69,7 @@ function getArticles() {
                  // echo '<br/>';
               } else {
                   //echo "Article: $file_name already downloaded...\n";  
-              } */ 
+              } 
               
               
              array_push($articles, new Article($file_name, $month)); 
