@@ -16,9 +16,13 @@ Make sure the file has execute permissions
 ## High level overview of process
 
 1.) Download the article index files (if not already downloaded)
+
 2.) Parse each index file and filter out the articles related to politics(articles with politcs, government, or opinion in the URL) 
+
 3.) Download all articles to the /articles folder
+
 4.) Go through each article and tally up the number of times a presidential candidate's name was mentioned
+
 5.) Output to csv file
 
 ## Next Steps
